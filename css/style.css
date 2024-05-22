@@ -172,6 +172,11 @@ h6,
     background-size: cover;
 }
 
+.service-header {
+    background: url(../img/service-bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+
 .hero-header .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
