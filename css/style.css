@@ -139,6 +139,44 @@ h6,
     /* font-weight: 700; */
 }
 
+.product-item {
+    /* height: 200px; */
+    background: linear-gradient(to bottom, #e8edec4f, #d2d1d379);
+    box-shadow: 0 4px 8px rgba(236, 86, 17, 0.4);
+}
+
+.bg-grad-1 {
+    background: linear-gradient(to bottom, #e8edec39, #d2d1d346);
+    box-shadow: 0 4px 8px rgba(65, 63, 61, 0.367);
+}
+
+.border-left-primary {
+    border-left: 1px solid var(--primary);
+}
+
+.border-right-primary {
+    border-right: 1px solid var(--primary);
+}
+
+.border-right-light {
+    border-right: 1px solid #B99470;
+}
+
+.border-left-light {
+    border-left: 1px solid #B99470;
+}
+
+
+
+.border-top-primary {
+    border-top: 1px solid var(--primary);
+}
+
+.border-bottom-primary {
+    border-bottom: 1px solid var(--primary);
+}
+
+
 @media (max-width: 991.98px) {
     
     .navbar .navbar-nav {
