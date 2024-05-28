@@ -18,6 +18,20 @@
   }
 
 
+  @keyframes rotate-left-right {
+    0% {
+        transform:rotate(-30deg);
+    }
+    100% {
+      transform: rotate(60deg);
+    }
+  }
+
+  .animated__r_l {
+    animation: rotate-left-right 2s ease-in-out infinite alternate-reverse both;
+  }
+
+
  .animated__up_down {
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
     height: 60vh;
